@@ -33,10 +33,10 @@ fun PayActivity( modifier: Modifier = Modifier){
         modifier = modifier.fillMaxSize()){
         SectionHeader()
         Spacer(modifier = Modifier.padding(8.dp))
-        Text(text = "kpd yth", Modifier.padding(start = 15.dp))
-        Text(text = "Jodi", Modifier.padding(start = 15.dp))
+        Text(text = "Kpd yth", Modifier.padding(start = 15.dp))
+        Text(text = "Bpk/Ibu", Modifier.padding(start = 15.dp))
         MainSection(
-            judulParam = "nama", isiParam = "jodi"
+            judulParam = "Nama", isiParam = "Egin Pardewan"
         )
         MainSection(
             judulParam = "Kelas", isiParam = "B"
@@ -45,7 +45,7 @@ fun PayActivity( modifier: Modifier = Modifier){
             judulParam = "NIM", isiParam = "20220140080"
         )
         MainSection(
-            judulParam = "Keterangan", isiParam = "mabok"
+            judulParam = "Keterangan", isiParam = "Ngaji"
         )
 
     }
